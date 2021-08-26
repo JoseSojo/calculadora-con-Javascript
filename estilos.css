@@ -1,0 +1,93 @@
+/* Valores por defecto */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Contenedor */
+.calculadora{
+    width: 320px;
+    height: auto;
+    background: #212529;
+    margin: 10px auto;
+    border-radius: 12px;
+    text-align: center;
+}
+/*TIPO BOTON 1*/
+.btn-lg{
+    color:#fff;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    margin: 5px 4px;
+    font-size: 17px;
+    background: radial-gradient(#c44,#934);
+    transition: .2s ease-in all;
+}
+.btn-lg:hover{
+    background: radial-gradient(#822,#600);
+    color: #b1b7b8
+}
+/*TIPO BOTON 2*/
+.btn{
+    transition: .5s ease-in-out all;
+    color:#fff;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    margin: 5px 2px;
+    font-size: 17px;
+}
+/*TIPO BOTON 3*/
+.btn-num{
+    background: radial-gradient(#3743a9,#1c2681);
+    transition: .5s ease-out all;
+}
+.btn-num:hover{
+    background: radial-gradient(#152187,#041067);
+    color: #b1b7b8
+}
+/*TIPO BOTON 4*/
+.btn-opa{
+    background: radial-gradient(#40a943,#207923);
+    transition: .5s ease-out all;
+}
+.btn-opa:hover{
+    background: radial-gradient(#288721,#086601);
+    color: #d1d5d9
+}
+/*TIPO BOTON 5*/
+.btn-op{
+    background: radial-gradient(#5fc4cb,#3fa4ab);
+    color: #212529;
+    transition: .5s ease-out all;
+}
+.btn-op:hover{
+    background: radial-gradient(#3da2a9,#2d8279);
+    color: #484467
+}
+.result{
+    background: #313539;
+    padding: 6px 4px;
+    height: 60px;
+}
+.operacion,.resultado{
+    margin-bottom: 5px;
+    color: #fff;
+    height: 40%;
+    font-size: 18px;
+}
+.cedito{
+    background: #313539;
+    height: 45px;
+    line-height: 45px;
+    text-align: end;
+    color: #fff;
+    padding-right: 12px;
+    border-radius: 7px;
+}
